@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    background-image: url("../img/ciudad.jpg");
+    background-size:100% ;
+}
+h1.titulo{
+    margin-top: 17px;
+    color: white;
+}
+div.enlaces{
+    margin-top: 20px;
+    
+}
+
+div.enlaces a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+div.enlaces button{
+    padding: 13px;
+    background: #1cb7e6;
+    border-radius: 6px;
+    border: 0;
+
+    transition-duration: 0.5s;
+    margin: 7px;
+}
+div.enlaces button:hover{
+    background:#1b6fed;
+}

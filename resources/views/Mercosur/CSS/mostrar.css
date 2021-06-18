@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    background-image: url("../img/ciudad.jpg");
+    background-size:100% ;
+}
+h1.titulo{
+    margin-top: 17px;
+    color: white;
+}
+#subtitulo_1{
+    color: white;
+}
+#subtitulo_2{
+    color: white;
+}
+#main-container{
+	margin-top: 2%;
+	width: 90%;
+}
+
+table{
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+    font-size: 15px;
+}
+
+th, td{
+	padding: 15px;
+}
+
+thead{
+	background-color: #5374f7;
+	border-bottom: solid 5px #000000;
+	color: rgb(0, 0, 0);
+}
+
+tr:nth-child(even){
+	background-color: rgb(221, 221, 221);
+}
+
+tr:hover td{
+	background-color: #3e8ef7;
+	color: white;
+}
+a.editar{
+    text-decoration: none;
+    padding: 7px;
+    background: #45d83d;
+    color: black;
+    border-radius: 5px;
+}
+a.eliminar{
+    text-decoration: none;
+    padding: 7px;
+    background: #d83d3d;
+    color: black;
+    border-radius: 5px;
+}

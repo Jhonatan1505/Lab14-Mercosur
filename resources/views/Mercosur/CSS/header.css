@@ -1,0 +1,16 @@
+header{
+    padding: 10px 0;
+    margin-bottom: 7px;
+    width: 100%;
+    background: #03A3E1 ;
+    text-align: center;
+    transition-duration:0.5s ;
+}
+header:hover{
+    background: #00B8FF;
+}
+header h1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
